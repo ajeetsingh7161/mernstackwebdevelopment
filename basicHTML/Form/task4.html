@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="server">
+    <table border="black">
+        <tr  align="center">
+            <th rowspan="" colspan="4"   ><h2>Registration Form </h2></th>
+            
+        </tr>
+        
+        <tr>
+            <td>Student Name</td>
+            <td>
+                <input type="text" placeholder="First name">
+            </td>
+            <td>
+                <input type="text" placeholder="Middle Name">
+            </td>
+            <td><input type="text" placeholder="Last Name "></td>
+        </tr>
+        <tr>
+            <td>Father's Name</td>
+            <td><input type="text" placeholder="Enter Your father's Name"></td>
+            <td>Mother's Name</td>
+            <td><input type="text" placeholder="Enter Your Mother's Name"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" ></td>
+            <td>Gender</td>
+            <td><input type="radio" name="Gender" id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female">
+                <label for="Female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <input type="radio" id="Gen" name="Category">
+                <label for="Gen">Gen</label>
+
+                <input type="radio" name="Category" id="OBC">
+                <label for="OBC">OBC</label>
+                
+                <input type="radio" name="Category" id="SC/ST">
+                <label for="SC/ST">SC/ST</label>
+            </td>
+            <td>Handicapped</td>
+            <td>
+                <input type="radio" id="Yes" name="Handicapped">
+                <label for="Yes">Yes</label>
+
+                 <input type="radio" id="No" name="Handicapped">
+                <label for="No">No</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Ex-Serviceman</td>
+            <td>
+                 <input type="radio" id="Yes" name="exServiceman">
+                 <label for="Yes">Yes</label>
+
+                  <input type="radio" id="No" name="exServiceman">
+                 <label for="No">No</label>
+            </td>
+            <td>
+                EWS
+            </td>
+            <td>
+                <input type="radio" name="EWS" id="Yes">
+                <label for="Yes">Yes</label>
+
+                 <input type="radio" name="EWS" id="No">
+                <label for="No">No</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" ></td>
+            <td>Mobile No</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+               <select 
+                name="State" id="State">
+                <option value="U.P">U.P</option>
+                <option value="M.P">M.P</option>
+                <option value="Gujrat">Gujrat</option>
+             </select>
+            </td>
+            <td>City</td>
+            <td>
+                <select
+                 name="City" id="City">
+                 <option value="Varanashi">Varanashi</option>
+                 <option value="Gorakhpur">Gorakhpur</option>
+                 <option value="Lucknow">Lucknow</option>
+                 <option value="Bhopal">Bhopal</option>
+                 <option value="Ahmedabad"> Ahmedabad</option>
+                 <option value="Ujjain">Ujjain</option>
+
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Upload Photo</td>
+            <td>
+                <button>Browse</button> No file selected
+                
+            </td>
+            <td>Upload Signaturte</td>
+            <td>
+                <button>Browse</button> No file selected
+            </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td colspan="3"  align="center">
+                <Button>Submit</Button></td>
+        </tr>
+
+
+
+
+
+    </table>
+    </form>
+</body>
+</html>

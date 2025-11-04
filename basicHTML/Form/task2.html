@@ -30,9 +30,68 @@
 
         </div>
         <div>
-            <label for="size" >Size</label>
-            <input type="checkbox" name="" value="small , Medium , Large" id="size">
+            Size: <br>
+           
+            <input type="radio" name="Size" value="small , Medium , Large" id="Small">
+             <label for="Small" >Small</Small></label>
+
+           
+            <input type="radio" name="Size" id="Medium">
+             <label for="Medium">Medium</label>
+
+             
+             <input type="radio" name="Size" value="large">
+             <label for="Large">Large</label>
         </div>
+
+        <div>
+            Flavor: <br>
+             <input type="checkbox" id="Hawaiian((Php 150.00))" name="flavor">
+             <label for="Hawaiian((Php 150.00))">Hawaiian((Php 150.00))</label>
+             <select name="flavor" id="Hawaiian((Php 150.00))">
+            <option value="1 ">1</option>
+            <option value="2 ">2</option>
+            <option value="3 ">3</option>
+             </select>
+             <br>
+
+            <input type="checkbox" id="Pepperoni((Php 150.00))" name="flavor">
+            <label for="Pepperoni((Php 140.00))">Pepperoni((Php 140.00))</label>
+            <select name="flavor" id="Pepperoni((Php 140.00))">
+            <option value="1 ">1</option>
+            <option value="2 ">2</option>
+            <option value="3 ">3</option>
+            </select>
+             <br>
+            <input type="checkbox" id="Vegetable((Php 130.00))" name="flavor">
+            <label for="Vegetable((Php 130.00))">Vegetable((Php 130.00))</label>
+            <select name="flavor" id="Vegetable((Php 130.00))">
+            <option value="1 ">1</option>
+            <option value="2 ">2</option>
+            <option value="3 ">3</option>
+            </select>
+
+
+        </div>
+        <br>
+        <div>
+           
+            <label aria-placeholder="creditnumber" for="creditcardnumber">Credit Card Number</label>
+             <input type="text" id="creditcardnumber">
+             <br>
+             <label for="password">PIN</label>
+             <input type="password" id="password">
+        </div>
+        <div>
+        Additional Notes: <br>
+        <textarea name="additional notes"
+            id="addinotes"
+            rows="10" cols="50">
+        </textarea>
+        </div>
+
+        <br>
+        <button>Submit Order</button>
 
     </form>
     

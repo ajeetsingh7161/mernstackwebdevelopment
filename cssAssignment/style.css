@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(85, 157, 239);
+}
+#mainBox{
+    background-color: white;
+    width: fit-content;
+    border: solid rgb(232, 233, 236);
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+
+}
+
+#LoginHeading{
+    margin: 0px;
+}
+#details{
+    width: fit-content;
+    margin: 10px;
+}
+#forget{
+    margin-left: 50px;
+    color: blue;
+}
+
+#details input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    margin: 5px;
+    font-size: medium;
+    width: 240px;
+}
+#loginB{
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(24, 130, 235);
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+}

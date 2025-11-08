@@ -1,0 +1,23 @@
+#mainDiv{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 100px 120px 100px;
+    justify-content: center;
+    align-items: center
+    justify
+    j
+    
+}
+.subdiv{
+ background-color: purple;
+ border: 1px solid #000;
+ width: 40px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}

@@ -1,0 +1,19 @@
+.NavBar{
+    border: 1px;
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+}
+#links{
+    display: flex;
+    gap: 20px;
+}
+button
+{
+    background-color: red;
+    position: fixed;
+}

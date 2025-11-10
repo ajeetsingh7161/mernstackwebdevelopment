@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="mainBox">
-      <div id="heading"><h1>Registration</h1></div>  
 
-      <div id="details">
-        <div id="name">
-            <input type="text" placeholder="Enter your name">
-
-        </div>
-        <div id="Email">
-            <input type="email" placeholder="Enter your email">
-        </div>
-        <div id="pass">
-            <input type="password" placeholder="create a password">
-        </div>
-        <div id="cpass">
-            <input type="password" placeholder="Confirm a password">
-        </div>
-        <div id="term">
-            <input type="checkbox" id="checkbox">
-        </div>
-        <div id="button">
-            <button type="submit">Reginter Now</button>
-        </div>
-        <div>
-            <span>Already have an account?</span>
-            <span>Login now</span>
-        </div>
-
-      </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+</head>
+<body>
+    <div class="register">
+        <form class="register-form">
+            <h2><span class="underline"><u>Re</u>gistration</span></h2>
+            <div class="input">
+                <i class="fa-solid fa-user icon"></i>
+                <input type="text" placeholder="Enter your name" >
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-envelope icon"></i>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" placeholder="Create a password">
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" placeholder="Confirm a password">
+                <i class="eye fa-solid fa-eye eye-icon"></i>
+            </div>
+            <div class="options">
+                <label>
+                    <input type="checkbox" required>
+                    I accept all terms & conditions
+                </label>
+            </div>
+            <button type="submit" class="register-button">Register Now</button>
+            <div class="login-link">
+                Already have an account? <a href="#">Login now</a>
+            </div>
+        </form>
     </div>
-  </body>
+</body>
 </html>

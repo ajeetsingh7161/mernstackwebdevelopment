@@ -1,0 +1,36 @@
+#dabba{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    animation: movingDabba 10s infinite;
+}
+
+@keyframes movingDabba {
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: blueviolet;
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+        background-color: yellow;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: black;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+        background-color: beige;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: brown;
+    }
+    
+}

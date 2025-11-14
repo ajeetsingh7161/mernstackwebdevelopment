@@ -1,0 +1,54 @@
+#mainBox{
+    width: 1000px;
+    height: 50px;
+    border: 1px solid rgb(20, 19, 19);
+
+    #animation{
+    width: 0% ;
+    height: 50px;
+    background-color: orange;
+    border: none;
+}
+
+}
+#mainBox:hover{
+    /* margin-left: 200px; */
+    #animation{
+    width: 100%;
+    background-color: rgb(44, 225, 77) ;
+    transition: width 5s ease-in-out,background-color 5s ease-out;
+    }
+
+}
+#mainBox1{
+    width: 1000px;
+    height: 50px;
+    border: 1px solid rgb(20, 19, 19);
+
+    #animation1{
+   height: 50px;
+    }
+}
+
+#mainBox1:hover{
+    /* margin-left: 200px; */
+    #animation1{
+        animation: myAnimation 5s linear;
+        
+    }
+
+}
+@keyframes myAnimation {
+    0%{
+        width:0%;
+        background-color: red;
+    }
+    50%{
+        width: 50%;
+        background-color: yellow;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}

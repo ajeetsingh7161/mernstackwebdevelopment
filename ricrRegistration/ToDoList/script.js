@@ -3,7 +3,7 @@ function AddTask(){
 
     console.log(task);
 
-   if(){
+   if{
      const l = document.createElement("li");
     l.classList.add("p-2","d-flrx","align-items-center","border-bottom");
 

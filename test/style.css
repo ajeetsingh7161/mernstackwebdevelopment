@@ -1,0 +1,42 @@
+
+
+
+
+#ricr{
+    color: rgb(44, 53, 6);
+    width: auto;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(250, 247, 243);
+    margin:
+}
+.head{
+    border-color: black;
+    margin: 10px;
+    background-color: rgb(130, 186, 186);
+    font-size: 20px;
+}
+#h1{
+    color: blue;
+    
+    text-align: center;
+}
+ #paragraph{
+    text-align: justify;
+}
+#getstarted{
+    position: relative;
+    left: 50%;
+    background-color: lightslategray;
+}
+
+
+
+
+#Rbody{
+    background-color: burlywood;
+}
+
+#h1{
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>India Map Search</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    #map-container {
+      position: relative;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    #india-map {
+      width: 500px;    /* change if you want */
+      height: auto;
+    }
+
+    /* marker CLASS (not id now) */
+    .marker {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: red;
+      border: 2px solid white;
+      transform: translate(-50%, -50%);  /* center on point */
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Search location on India Map</h2>
+
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Type state name e.g. Gujarat, Tamil Nadu, MP"
+  >
+  <button onclick="searchLocation()">Search</button>
+
+  <p id="msg" style="color: red;"></p>
+
+  <div id="map-container">
+    <!-- change src to your real image file name -->
+   <img id="india-map" src="india-map.jpg" alt="India Map">
+    <!-- markers will be added here by JavaScript -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

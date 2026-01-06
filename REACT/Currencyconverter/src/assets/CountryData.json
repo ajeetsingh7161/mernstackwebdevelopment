@@ -1,0 +1,32 @@
+[
+  {
+    "countryName": "India",
+    "currencyName": "Indian Rupee",
+    "currencyCode": "INR",
+    "countryCode": "IN"
+  },
+  {
+    "countryName": "United States",
+    "currencyName": "US Dollar",
+    "currencyCode": "USD",
+    "countryCode": "US"
+  },
+  {
+    "countryName": "United Kingdom",
+    "currencyName": "Pound Sterling",
+    "currencyCode": "GBP",
+    "countryCode": "GB"
+  },
+  {
+    "countryName": "Japan",
+    "currencyName": "Japanese Yen",
+    "currencyCode": "JPY",
+    "countryCode": "JP"
+  },
+  {
+    "countryName": "Australia",
+    "currencyName": "Australian Dollar",
+    "currencyCode": "AUD",
+    "countryCode": "AU"
+  }
+]
